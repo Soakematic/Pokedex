@@ -1,0 +1,33 @@
+[
+    {
+        "version": "1.0",
+        "date": "2023-05-23",
+        "changes": ["Finihsed 'Home' Page", 
+                    "Finished 'Catch a Pokemon' Page", 
+                    "Finished 'Pokedex' Page"]
+    },
+    {
+        "version": "1.1",
+        "date": "2023-05-26",
+        "changes": ["Added 'Login' Page",
+                    "Added 'Logout' Button"]
+    },
+    {
+        "version": "1.1.1",
+        "date": "2023-05-27",
+        "changes": ["Updated The 'Login' Page"]
+    },
+    {
+        "version": "1.2",
+        "date": "2023-06-30",
+        "changes": ["Updated 'Catch A Pokemon' Page",
+                    "Change 'Catch A Pokemon' Page to 'Safari Zone'",
+                    "Added 'Testing Page' For Admin Testing Purposes"]
+    },
+    {
+        "version": "1.2.1",
+        "date": "2023-07-06",
+        "changes": ["Updated 'Safari Zone' Page",
+                    "Added 'Changelog' in 'Home' Page"]
+    }
+]
