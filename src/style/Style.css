@@ -1,0 +1,646 @@
+/* Header & Footer */
+.link {
+	text-decoration: none;
+	color: white;
+}
+
+.navFooter12 {
+	padding: 5px;
+	background-color: yellow;
+	border-top: 3px solid black;
+	color: white;
+}
+
+.footerbottom {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+
+
+.popup-pokeball {
+	
+	background-color: gray;
+	border: 2px solid black;
+	border-radius: 1rem;
+	height: 460px;
+	width: 100%;
+	text-align: center;
+	padding: 2rem;
+}
+
+/* Texts */
+.homeText {
+	text-align: center;
+}
+
+.homeContainer {
+	
+	grid-area: left2;
+	
+}
+
+.homeContainer2 {
+	
+	grid-area: right1;
+}
+
+.dexScroll {
+	
+	overflow-y: scroll;
+	overflow-x: hidden;
+	background-color: #111111;
+	width: 100%;
+	height: 400px;
+	border: 2px solid black;
+	text-align: center;
+	border-radius: 1rem;
+	padding: 10px;
+}
+
+.dexScroll::-webkit-scrollbar {
+  width: 0px;
+}
+
+
+.pokemonList {
+	overflow-y: hidden;
+	overflow-x: scroll;
+	background-color: rgb(150, 150, 150);
+	width: 100%;
+	height: 230px;
+	border: 3px solid black;
+	border-radius: 1rem;
+	padding: .3rem;
+	display: flex;
+	flex-wrap:nowrap;
+}
+
+.pokemonList::-webkit-scrollbar {
+  width: 0px;
+}
+
+.pokemon-details {
+	background-color: #111111;	
+	border: 1px solid black;
+	border-radius: 1rem;
+	height: 400px;
+	padding: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	color: lightgray;
+}
+
+.itemName {
+	display: flex;
+	flex-direction: row;
+	align-items: left;
+}
+
+.dexDesc {
+	background-color: yellow;
+	width: 100%;
+	height: 50%;
+	display: none;
+}
+
+.dexList {
+	background-color: #BF0000;
+	border: 1px solid black;
+	border-top-left-radius: 3rem;
+	border-bottom-left-radius: 3rem;
+	height: 750px;
+	text-align: center;
+}
+
+.pokebutton {
+	padding: 10px;
+	font-size: 25px;
+
+}
+
+.pokeballList {
+	grid-area: right1;
+}
+
+.flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+/* ID */
+#tweet {
+	width: 100%;
+	height: 400px;
+	text-align: center;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	#twtTimeline {
+		width: 500px;
+	}
+
+}
+
+.pokeball-icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.pokeball-icon.loading {
+  animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.smallButton {
+	text-align: right;
+}
+
+@media (max-width: 575.98px) {
+	.dropMenu {
+		width: 50vw;
+		left: 25vw;
+		top: 50px;
+		transform: none !important;
+	}
+
+	.dropMenu.show {
+		display: block;
+	}
+ }
+
+
+
+.homeTitle {
+	text-align: center;
+}
+
+.homeButton {
+	padding: 5px;
+	width: 100%;
+}
+
+.background {
+	background-image: url('../asset/img/background/bg1.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+@media (max-width: 576px) {
+  .background {
+    background-image: url('../asset/img/background/bg1.png');
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .background {
+    background-image: url('../asset/img/background/bg1.png');
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .background {
+    background-image: url('../asset/img/background/bg1.png');
+  }
+}
+
+@media (min-width: 993px) {
+  .background {
+    background-image: url('../asset/img/background/bg1.png');
+  }
+}
+
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('b2w2-font.ttf') format('truetype');
+}
+
+.getButton {
+	margin: 3px;
+	font-size: 25px;
+}
+
+.PC {
+	flex: 0 0 auto;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	margin-right: 16px;
+  	text-align: center;
+	border: 1px dotted black;
+	border-radius: 1rem;
+	background-color: gray;
+	height: 200px;
+}
+
+.PC img {
+	width: 121px;
+	height: 110px;
+}
+
+.login {
+	background-color: gray;
+	border: 3px solid black;
+	font-size: 25px;
+	z-index: 1;
+}
+
+.loginBackground {
+	background-image: url("../asset/img/pokeball.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 3px solid black;
+	height: 600px;
+	width: 600px;
+	border-radius: 100rem;
+}
+
+@media (max-width: 767.98px) {
+	.loginBackground {
+		background-image: url("");
+		border: 0px;
+	}
+
+	.login {
+		height: 300px;
+		width: 350px;
+		text-align: center;
+		align-items: center;
+	}
+}
+
+.loginBorder1 {
+	background-color: red;
+	height: 50%;
+	width: 30px;
+	border-right: 3px solid black;
+}
+
+.loginBorder2 {
+	background-color: red;
+	height: 30px;
+	border-bottom: 3px solid black;
+	width: 100%;
+}
+
+.loginBorder3 {
+	background-color: red;
+	height: 50%;
+	width: 30px;
+	border-left: 3px solid black;
+}
+
+.loginBorder4 {
+	background-color: #D1C0A8;
+	height: 30px;
+	width: 100%;
+	border-top: 3px solid black;
+}
+
+.loginBorder5 {
+	background-color: #D1C0A8;
+	height: 50%;
+	width: 30px;
+	border-right: 3px solid black;
+}
+
+.loginBorder6 {
+	background-color: #D1C0A8;
+	height: 50%;
+	width: 30px;
+	border-left: 3px solid black;
+}
+
+.loginEdge1 {
+	background-color: #e20101;
+	height: 60px;
+	width: 50px;
+}
+
+.pokedexBack1-2 {
+	background-color: #800000;
+	padding: 20px;
+	border-bottom-left-radius: 3rem;
+	border-top: 2px solid black;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+.bunny-ears {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 40px;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  z-index: 1;
+}
+
+.bunny-ears::before,
+.bunny-ears::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+}
+
+.bunny-ears::before {
+  border-top-color: red;
+  top: -50px;
+  left: -50px;
+  transform: rotate(-45deg);
+}
+
+.bunny-ears::after {
+  border-top-color: red;
+  top: -50px;
+  right: -50px;
+  transform: rotate(45deg);
+}
+
+.footText {
+	text-align: center;
+	font-size: 20px;
+}
+
+.region{
+	text-align: center;
+}
+
+.pokedexBack {
+	background-color: blue;
+	height: 100px;
+	width: 100%;
+	border: 5px solid white;
+	border-radius: 50%;
+}
+
+.pokedexBack1 {
+	background-color: #800000;
+	height: 100px;
+	border-top-left-radius: 100px; 
+	overflow: hidden;
+	border-left: 2px solid black;
+	border-top: 2px solid black;
+	border-right: 2px solid black;
+}
+
+.pokedexBack1-11 {
+	background-color: red;
+	height: 50px;
+	width: 100%;
+	border: 5px solid black;
+	border-radius: 50%;
+}
+
+.pokedexBack1-12 {
+	background-color: green;
+	height: 50px;
+	width: 100%;
+	border: 5px solid black;
+	border-radius: 50%;
+}
+
+.pokedexBack1-13 {
+	background-color: gray;
+	height: 50px;
+	width: 100%;
+	border: 5px solid black;
+	border-radius: 50%;
+}
+
+.pokedexBack1-3 {
+	background-color: #800000;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+}
+
+.pokedexBack2 {
+	background-color: #800000;
+	height: 100px;
+	border-top-right-radius: 100px; 
+	border-top: 2px solid black;
+	border-right: 2px solid black;
+}
+
+.pokedexBack2-1 {
+	background-color: #800000;
+	background-position: center;
+	height: 50px;
+	top:-5%;
+	left: -5%;
+	transform: mirror;
+	display: block;
+}
+
+.pokedexBack2-2 {
+	background-color: #800000;
+	height: 568px;
+	border-bottom-right-radius: 3rem;
+	padding: 20px;
+	border-top: 2px solid black;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+.pokedexRegionButton button {
+	border: 2px solid lightgray;
+	margin: 2px;
+	width: 90px;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+.pokedexRegionButton button:disabled {
+	background-color: lightgray;
+	border: 2px solid black;
+	color: black;
+}
+
+.pokemonPortrait {
+	border: 1px solid lightgray;
+	height: 150px;
+	padding: 2px;
+}
+
+.smDexBack1 {
+	background-color: gray;
+	height: 270px;
+	border: 2px solid black;
+}
+
+.smDexBack1-1 {
+	background-color: #333333;
+	height: 242px;
+}
+
+.smDexDetail {
+	background-color: #111111;	
+	border: 1px solid black;
+	height: 200px;
+	padding: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.smDexBack2 {
+	background-color: gray;
+	height: 245px;
+	width: 100%;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+.smDexBack2-1 {
+	background-color: #333333;
+	height: 250px
+}
+
+.smDexList {
+	overflow-y: scroll;
+	overflow-x: hidden;
+	background-color: #111111;
+	width: 100%;
+	height: 200px;
+	border: 2px solid black;
+	text-align: center;
+	padding: 10px;
+}
+
+.smDexBack3 {
+	background-color: gray;
+	height: 300px;
+	width: 100%;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+.smDexBack3-1 {
+	background-color: red;
+	height: 275px;
+	border: 2px solid black;
+	border-top-left-radius: 100px;
+	border-top-right-radius: 100px;
+	text-align: center;
+}
+
+/*Safari*/
+.safariBack {
+	background-color: red;
+	width: 100%;
+	height: 750px;
+	border: 3px solid black;
+	border-radius: .5rem;
+}
+
+.safariScreen {
+	background-color: grey;
+	width: 100%;
+	height: 735px;
+	border: 3px solid black;
+	border-radius: .5rem;
+}
+
+.safariMainScreen {
+	background-color: #111111;
+	border: 3px solid black;
+	border-radius: 0.5rem;
+	padding: 1px;
+	height: 475px;
+}
+
+.safariMainScreen-Map {
+	background-color: lightgrey;
+	border-radius: .5rem;
+	height: 460px;
+
+}
+
+.safariMap-sm {
+	background-image: url('../asset/img/safari.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;	
+	border: 1px solid black;
+	height: 200px;
+}
+
+.safariMap-sm2 {
+	background-image: url('../asset/img/safari-logo.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:  57%;
+}
+
+.help {
+	color: white;
+	background-image: url('../asset/img/safari.jpeg');
+	background-repeat: no-repeat;
+	
+	height: 100%;
+}
+
+.homeList {
+	overflow-y: scroll;
+	overflow-x: hidden;
+	background-color: rgb(120, 145, 192);
+	width: 100%;
+	height: 400px;
+	border: 3px solid black;
+	border-radius: 1rem;
+	padding: 2.5rem;
+}
+
+.PokeType {
+	font-size: 24px;
+}
+
+.safariMapKanto {
+	background-image: url('../asset/img/kanto-safari.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 450px;
+	border: 5px solid black;
+}
+
+.safariMapLine {
+	Border: 5px solid silver;
+	border-radius: 1rem;
+	background-color: silver;
+}
+
+.changelog {
+	overflow-y: scroll;
+	overflow-x: hidden;
+	background-color: rgb(120, 145, 192);
+	width: 100%;
+	height: 400px;
+	border: 3px solid black;
+	border-radius: 1rem;
+	padding: 2.5rem;
+}
