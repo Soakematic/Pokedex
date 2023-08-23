@@ -25,4 +25,20 @@ Use npm start in PowerShell to run the build
  
 # Screenshots
 
+* Login Page
+![Login](/screenshot/Login.png)
+
+* Home Page
 ![Home Page](/screenshot/HomePage.png)
+
+* Safari Zone
+![Safari Zone](/screenshot/SafariMenu.png)
+
+![Safari Zone Progress](/screenshot/SafariInProgress.png)
+
+* Pokedex
+![Pokedex](/screenshot/Pokedex.png)
+
+* Testing Page
+![Testing Page](/screenshot/TestingPage.png)
+
