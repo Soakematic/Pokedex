@@ -32,8 +32,7 @@ Use npm start in PowerShell to run the build
 ![Home Page](/screenshot/HomePage.png)
 
 * Safari Zone
-![Safari Zone](/screenshot/SafariMenu.png)
-![Safari Zone Progress](/screenshot/SafariInProgress.png)
+![Safari Zone](/screenshot/SafariMenu.png) ![Safari Zone Progress](/screenshot/SafariInProgress.png)
 
 * Pokedex
 ![Pokedex](/screenshot/Pokedex.png)
