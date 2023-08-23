@@ -33,7 +33,6 @@ Use npm start in PowerShell to run the build
 
 * Safari Zone
 ![Safari Zone](/screenshot/SafariMenu.png)
-
 ![Safari Zone Progress](/screenshot/SafariInProgress.png)
 
 * Pokedex
