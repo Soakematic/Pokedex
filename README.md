@@ -25,4 +25,4 @@ Use npm start in PowerShell to run the build
  
 # Screenshots
 
-![Home Page](/screenshot/Home Page.png)
+![Home Page](/screenshot/Home_Page.png)
