@@ -1,4 +1,5 @@
 # Run The Build
+Make sure to have ReactJS installed
 Use npm start in PowerShell to run the build
 
 # Website Features
